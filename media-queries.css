@@ -31,9 +31,7 @@
     margin-right: 15px;
     }
   
-  .card-skills{
-    left:20px;
-  }
+  
   
   .img-card-container p{
     margin-left: 5px;
@@ -351,7 +349,7 @@
   
 }
 .card-skills{
-  
+  margin-left:2%;
   margin-top: 30px;
   
 }
@@ -408,7 +406,7 @@
   left:50px;
 }
 .card-skills{
-  
+  margin-left:2%;
   margin-top: 45px;
   
 }
