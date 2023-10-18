@@ -55,7 +55,7 @@
 
   .card-skills{
     left: 50px;
-    margin-top:35px;
+    margin-top:25px;
   }
 
   .img-card-container p{
@@ -409,7 +409,7 @@
 }
 .card-skills{
   margin-left:9%;
-  margin-top: 35px;
+  margin-top: 30px;
   
 }
 .custom-card {
@@ -469,7 +469,7 @@
     margin-top: 5%;
   }
   .card-skills{
-    margin-left:8%;
+    margin-left:12%;
     margin-top: 17%;
     
   }
