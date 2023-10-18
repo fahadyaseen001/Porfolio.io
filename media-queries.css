@@ -23,8 +23,22 @@
   }
 }
 
+/* Galaxy Phone Screen */
+@media (max-width:412px) {
+  
 
-
+  .custom-share-icon{
+    margin-right: 15px;
+    }
+  
+  .card-skills{
+    left:20px;
+  }
+  
+  .img-card-container p{
+    margin-left: 5px;
+  }
+  }
 
   
 
