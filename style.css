@@ -542,60 +542,60 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
-  width: 80%;
+  width: 30%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-  width: 80%;
+  width: 20%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
-  width: 50%;
+  width: 40%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-  width: 60%;
+  width: 40%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
-  width: 70%;
+  width: 30%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span {
-  width: 60%;
+  width: 20%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(7) .bar span {
-  width: 70%;
+  width: 20%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(8) .bar span {
-  width: 60%;
+  width: 20%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(9) .bar span {
-  width: 50%;
+  width: 30%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(10) .bar span {
-  width: 70%;
+  width: 20%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(10) .bar span {
-  width: 60%;
+  width: 20%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(11) .bar span {
-  width: 50%;
+  width: 40%;
 }
 
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(12) .bar span {
-  width: 40%;
+  width: 30%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(13) .bar span {
-  width: 50%;
+  width: 30%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(14) .bar span {
@@ -611,18 +611,18 @@ span {
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-  width: 80%;
+  width: 30%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-  width: 60%;
+  width: 20%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-  width: 70%;
+  width: 30%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
-  width: 50%;
+  width: 20%;
 }
 
 .project-container {
