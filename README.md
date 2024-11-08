@@ -61,6 +61,3 @@ Email: fahadyaseen102@gmail.com
 LinkedIn: https://www.linkedin.com/in/muhammad-fahad-yaseen-666b8923b/
 
 Thank you for visiting my portfolio!
-
-
-This README includes all the essential details about your portfolio project, instructions for running it locally, and deployment info. Let me know if you'd like to customize any sections further.
