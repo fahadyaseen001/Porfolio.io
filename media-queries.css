@@ -269,6 +269,19 @@
   
 }
 
+/* Testimonials responsive styles for tablet */
+.testimonial-track {
+  animation: scroll 30s linear infinite; /* Slightly faster on smaller screens */
+}
+
+.testimonial-card {
+  width: 290px;
+  height: 420px; /* Taller cards on tablet for better text display */
+}
+
+.testimonial-content p {
+  font-size: 1.4rem;
+}
 
 }
 
@@ -284,6 +297,28 @@
         text-align: center;
     }
     
+    /* Testimonials responsive styles for mobile */
+    .testimonial-track {
+      animation: scroll 25s linear infinite; /* Even faster on mobile */
+    }
+  
+    .testimonial-card {
+      width: 250px;
+      height: 440px; /* Even taller on mobile */
+      padding: 1.5rem;
+    }
+  
+    .testimonial-content p {
+      font-size: 1.3rem;
+    }
+  
+    .testimonial-bio h3 {
+      font-size: 1.6rem;
+    }
+  
+    .testimonial-bio span {
+      font-size: 1.1rem;
+    }
     
 }
 

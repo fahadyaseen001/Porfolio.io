@@ -1063,3 +1063,135 @@ section:nth-child(odd) .animate.scroll{
   width: 15px;
   margin-left: 6px;
 }
+
+/* Testimonials Section */
+.testimonials {
+  min-height: auto;
+  padding-bottom: 7rem;
+  background: var(--bg--color);
+  overflow: hidden;
+}
+
+.testimonial-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.testimonial-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  width: calc(350px * 8); /* Width of cards multiplied by number of cards (4 originals + 4 duplicates) */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-350px * 4)); /* Half of total width (4 cards) */
+  }
+}
+
+.testimonial-card {
+  flex: 0 0 auto;
+  width: 350px;
+  height: 380px;
+  padding: 2rem;
+  margin-right: 20px;
+  background: var(--secong-bg-color);
+  border-radius: 0.8rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border: 0.2rem solid var(--secong-bg-color);
+  transition: all 0.5s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-card:hover {
+  border-color: var(--main-color);
+  transform: translateY(-10px);
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.quote {
+  font-size: 3.5rem;
+  color: var(--main-color);
+  opacity: 0.5;
+  margin-bottom: 1rem;
+}
+
+.testimonial-content p {
+  flex: 1;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  overflow: visible;
+  display: block;
+  height: auto;
+  min-height: 12rem;
+}
+
+.testimonial-info {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1.5rem;
+  border: 0.2rem solid var(--main-color);
+}
+
+.testimonial-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial-bio h3 {
+  font-size: 1.8rem;
+  color: var(--main-color);
+  margin-bottom: 0.3rem;
+}
+
+.testimonial-bio span {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* Testimonial Link Styling */
+.testimonial-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-link:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-link:hover .testimonial-img {
+  border-color: #fff;
+}
+
+.testimonial-link:hover .testimonial-bio h3 {
+  color: #fff;
+}
+
+/* Pause animation on hover */
+.testimonial-container:hover .testimonial-track {
+  animation-play-state: paused;
+}

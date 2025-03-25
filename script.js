@@ -40,4 +40,23 @@ window.onscroll = () => {
 
 };
 
+// Testimonials infinite slider functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const track = document.querySelector('.testimonial-track');
+  
+  // Check if track exists (to avoid errors)
+  if (track) {
+    // Clone items for truly infinite effect if needed
+    const resetAnimation = () => {
+      // Reset the animation by removing and re-adding the class
+      track.style.animation = 'none';
+      track.offsetHeight; // Trigger reflow
+      track.style.animation = null;
+    };
+    
+    // Reset animation when it completes to ensure smooth continuous scrolling
+    track.addEventListener('animationiteration', resetAnimation);
+  }
+});
+
   
